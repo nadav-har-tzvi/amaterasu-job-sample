@@ -1,5 +1,5 @@
 name: default
-master: mesos://10.32.0.6:5050
-inputRootPath: hdfs://10.32.8.4:9000/user/amaterasu/input
-outputRootPath: hdfs://10.32.8.4:9000/user/amaterasu/output
+master: mesos://172.16.0.5:5050
+inputRootPath: hdfs://10.32.0.4:9000/user/amaterasu/input
+outputRootPath: hdfs://10.32.0.4:9000/user/amaterasu/output
 workingDir: .
