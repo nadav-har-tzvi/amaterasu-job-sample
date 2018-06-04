@@ -3,5 +3,6 @@ master: mesos://172.16.0.5:5050
 inputRootPath: hdfs://10.32.0.5:9000/user/amaterasu/input
 outputRootPath: hdfs://10.32.0.5:9000/user/amaterasu/output
 workingDir: .
-configuration:
-  driver.memory: 2g
+configurations:
+  spark:
+    - driver.memory: 2g
